@@ -57,4 +57,3 @@ Regularmente contribuyo a proyectos de código abierto que promueven el uso efic
 - **GitHub:** [ÁlvaroMateosRobledillo](https://github.com/alvaromateosrobledillo)
 
 © 2024 Álvaro Mateos. Todos los derechos reservados.
-hola actualizado

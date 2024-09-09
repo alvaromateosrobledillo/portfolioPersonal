@@ -1,10 +1,12 @@
-import { defineConfig } from 'astro/config'
-import tailwind from "@astrojs/tailwind"
+import { defineConfig } from 'astro/config';
+import tailwind from "@astrojs/tailwind";
+import robotsTxt from "astro-robots-txt";
+import react from "@astrojs/react";
 
-import robotsTxt from "astro-robots-txt"
+import icon from "astro-icon";
 
 // https://astro.build/config
 export default defineConfig({
-  integrations: [tailwind(), robotsTxt()],
+  integrations: [tailwind(), robotsTxt(), react(), icon()],
   site: 'https://porfolio.dev/'
-})
+});

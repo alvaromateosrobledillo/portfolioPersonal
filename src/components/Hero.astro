@@ -37,7 +37,7 @@ import SocialPill from "./SocialPill.astro"
   <!-- Call to action buttons with tooltips -->
   <nav class="flex justify-center gap-4 mt-8">
     <SocialPill href="https://wa.me/34687854801" title="Contáctame por WhatsApp">
-      <FaWhatsapp class="size-4" />
+      <FaWhatsapp className="size-4" /> <!-- Corregido: class -> className -->
       Envíame un mensaje
     </SocialPill>
     <SocialPill href="https://www.linkedin.com/in/alvaromateosrobledillo/" title="Conéctate conmigo en LinkedIn">
@@ -45,7 +45,6 @@ import SocialPill from "./SocialPill.astro"
       LinkedIn
     </SocialPill>
   </nav>
-  
 
   <!-- Button to download CV -->
   <div class="mt-6">

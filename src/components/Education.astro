@@ -1,0 +1,46 @@
+---
+const EDUCATION = [
+  {
+    date: "2021 - 2023",
+    title: "Desarrollo de Aplicaciones Web",
+    center: "IES Clara del Rey",
+  },
+  {
+    date: "2017 - 2021",
+    title: "Administración y Dirección de Empresas",
+    center: "Universidad Rey Juan Carlos",
+  },
+]
+
+const LANGUAGES = [
+  { name: "Español", level: "Nativo" },
+  { name: "Inglés", level: "B2" },
+]
+---
+
+<div class="grid gap-10 mt-16 mx-12 md:grid-cols-5">
+  <ol class="space-y-8 md:col-span-3">
+    {
+      EDUCATION.map(({ date, title, center }) => (
+        <li>
+          <h3 class="text-xl font-bold text-yellow-400">{title}</h3>
+          <h4 class="font-semibold text-xl text-gray-600 dark:text-white">{center}</h4>
+          <time class="p-0 m-0 text-sm text-gray-600/80 dark:text-white/80">{date}</time>
+        </li>
+      ))
+    }
+  </ol>
+
+  <div class="md:col-span-2">
+    <h3 class="text-xl font-bold text-yellow-400 mb-4">Idiomas</h3>
+    <ul class="space-y-2 text-gray-600 dark:text-gray-300">
+      {
+        LANGUAGES.map(({ name, level }) => (
+          <li>
+            <span class="font-semibold text-gray-600 dark:text-white">{name}</span> · {level}
+          </li>
+        ))
+      }
+    </ul>
+  </div>
+</div>

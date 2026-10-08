@@ -10,7 +10,8 @@ import Projects from "../components/Projects";
 import SectionContainer from "../components/SectionContainer.astro"
 import Hero from "../components/Hero.astro"
 import Contact from "../components/Contact";
-import { FaEnvelope } from "react-icons/fa";  // Importar ícono para la sección de contacto
+import { FaEnvelope, FaGraduationCap } from "react-icons/fa";  // Importar ícono para la sección de contacto
+import Education from "../components/Education.astro"
 
 ---
 
@@ -33,6 +34,16 @@ import { FaEnvelope } from "react-icons/fa";  // Importar ícono para la secció
         Experiencia laboral
       </h2>
       <Experience />
+    </SectionContainer>
+
+    <SectionContainer id="formacion">
+      <h2
+        class="flex items-center mb-6 text-3xl font-semibold gap-x-3 text-black/80 dark:text-white"
+      >
+        <FaGraduationCap className="size-8" />
+        Formación e idiomas
+      </h2>
+      <Education />
     </SectionContainer>
 
     <SectionContainer id="proyectos">

@@ -52,34 +52,14 @@ const PROJECTS = [
       "Plataforma personalizada para la gestión de propietarios y huéspedes en el sector turístico. Desarrollada con React, Tailwind CSS y Firebase, permite gestionar propiedades e interactuar con el CRM de Odoo. El proyecto se despliega en Docker para facilitar la escalabilidad.",
     link: "https://software-gloove.web.app/",
     github: "https://github.com/alvaromateosrobledillo/gloove", // URL del repositorio en GitHub
-    image: "/projects/gloove.png", // Asegúrate de tener la imagen en la carpeta correcta
+    image: "/projects/gloove.webp",
     tags: [TAGS.REACT, TAGS.TAILWIND, TAGS.FIREBASE, TAGS.DOCKER],
   },
   {
     title: "UpSpain CRM para Proveedores",
     description:
       "Sistema CRM diseñado específicamente para UpSpain para gestionar las interacciones con proveedores y automatizar los procesos de facturación. Desarrollado con Angular y TypeScript, este sistema no solo mejora la eficiencia operativa, sino que también ofrece una experiencia de usuario excepcional gracias al diseño moderno proporcionado por Tailwind CSS.",
-    link: "https://billingmiddlewarefront-develop.azurewebsites.net/",
-    github: "https://github.com/yourusername/dynamic-form-builder",
-    image: "/projects/billing.png",
-    tags: [TAGS.ANGULAR, TAGS.TYPESCRIPT, TAGS.TAILWIND],
-  },
-  {
-    title: "Portfolio Website",
-    description:
-      "Mi sitio web de portfolio profesional, desarrollado con Angular y TypeScript, estilizado con Tailwind CSS, destacando mis proyectos y habilidades.",
-    link: "https://yourportfoliosite.com",
-    github: "https://github.com/yourusername/portfolio-site",
-    image: "/projects/rmotion2.png",
-    tags: [TAGS.ANGULAR, TAGS.TYPESCRIPT, TAGS.TAILWIND],
-  },
-  {
-    title: "Portfolio Website",
-    description:
-      "Mi sitio web de portfolio profesional, desarrollado con Angular y TypeScript, estilizado con Tailwind CSS, destacando mis proyectos y habilidades.",
-    link: "https://yourportfoliosite.com",
-    github: "https://github.com/yourusername/portfolio-site",
-    image: "/projects/web.personal.png",
+    image: "/projects/billing.webp",
     tags: [TAGS.ANGULAR, TAGS.TYPESCRIPT, TAGS.TAILWIND],
   },
 ];
@@ -98,6 +78,7 @@ const ProjectsSection = () => (
               alt={title}
               className="object-cover object-top w-full h-56 transition duration-500 sm:h-full md:scale-110 md:group-hover:scale-105"
               src={image}
+              loading="lazy"
             />
           </div>
         </div>

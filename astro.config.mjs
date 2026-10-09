@@ -7,6 +7,7 @@ import icon from "astro-icon";
 
 // https://astro.build/config
 export default defineConfig({
-  integrations: [tailwind(), robotsTxt(), react(), icon()],
-  site: 'https://porfolio.dev/'
+  integrations: [tailwind(), robotsTxt({ sitemap: false }), react(), icon()],
+  // Netlify define URL con el dominio del sitio durante el build
+  site: process.env.URL
 });

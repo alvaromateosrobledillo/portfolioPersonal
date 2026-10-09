@@ -12,7 +12,7 @@ const Footer = () => {
           <ul className="space-y-2">
             <li>
               <a
-                href="/about"
+                href="/#sobre-mi"
                 className="hover:text-gray-300 transition-colors duration-200 dark:hover:text-gray-700"
               >
                 Sobre mí
@@ -36,7 +36,7 @@ const Footer = () => {
             {/* LinkedIn */}
             <li>
               <a
-                href="https://linkedin.com/in/ÁlvaroLinkedin"
+                href="https://www.linkedin.com/in/alvaromateosrobledillo/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:text-gray-300 transition-colors duration-200 dark:hover:text-gray-700"
@@ -53,7 +53,7 @@ const Footer = () => {
             {/* GitHub */}
             <li>
               <a
-                href="https://github.com/ÁlvaroGit"
+                href="https://github.com/alvaromateosrobledillo"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:text-gray-300 transition-colors duration-200 dark:hover:text-gray-700"
@@ -64,23 +64,6 @@ const Footer = () => {
                   xmlns="http://www.w3.org/2000/svg"
                 >
                   <path d="M12 2C6.48 2 2 6.48 2 12c0 4.41 2.87 8.13 6.84 9.45.5.09.68-.22.68-.48 0-.24-.01-.87-.01-1.71-2.78.61-3.37-1.34-3.37-1.34-.45-1.15-1.1-1.46-1.1-1.46-.9-.61.07-.6.07-.6 1.02.07 1.56 1.04 1.56 1.04.89 1.52 2.34 1.08 2.91.82.09-.65.35-1.08.64-1.33-2.22-.25-4.55-1.11-4.55-4.94 0-1.09.39-1.99 1.03-2.69-.1-.25-.45-1.27.1-2.65 0 0 .84-.27 2.75 1.02A9.564 9.564 0 0 1 12 6.8a9.56 9.56 0 0 1 2.5.34c1.9-1.29 2.75-1.02 2.75-1.02.55 1.38.2 2.4.1 2.65.64.7 1.03 1.6 1.03 2.69 0 3.85-2.34 4.69-4.57 4.93.36.31.68.91.68 1.84 0 1.33-.01 2.4-.01 2.72 0 .26.18.57.69.48A10.001 10.001 0 0 0 22 12c0-5.52-4.48-10-10-10z" />
-                </svg>
-              </a>
-            </li>
-            {/* Facebook */}
-            <li>
-              <a
-                href="https://www.facebook.com/ÁlvaroFacebook"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="hover:text-gray-300 transition-colors duration-200 dark:hover:text-gray-700"
-              >
-                <svg
-                  className="w-7 h-7 fill-current"
-                  viewBox="0 0 24 24"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path d="M22.675 0h-21.35c-.734 0-1.325.592-1.325 1.325v21.351c0 .734.591 1.324 1.325 1.324h11.495v-9.294h-3.123v-3.622h3.123v-2.671c0-3.1 1.894-4.788 4.66-4.788 1.325 0 2.464.099 2.795.143v3.24h-1.918c-1.504 0-1.796.715-1.796 1.764v2.312h3.59l-.467 3.622h-3.123v9.294h6.126c.734 0 1.325-.591 1.325-1.324v-21.351c0-.734-.591-1.325-1.325-1.325z" />
                 </svg>
               </a>
             </li>
